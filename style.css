@@ -3,12 +3,7 @@ body {
     width: 100%;
 }
 
-.top{
-    display: grid;
-    
-}
 .nav {
-    list-style-type: none;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -19,20 +14,27 @@ body {
     font-size: xx-large;
 }
 .main {
-    background-color: rgba(182, 155, 34, 0.897);
-    height: 400px;
+    height: 395px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    color: white;
     justify-content: center;
+}
+.cell {
+    background-color: rgba(182, 155, 34, 0.897);
+    height: 100%;
     text-align: center;
-    align-items: center;
+    vertical-align: middle;
 }
 .head {
     font-size: xx-large;
 }
 .sub {
     font-size: xx-small;
+}
+
 }
 .img2 {
    height: 100%;
